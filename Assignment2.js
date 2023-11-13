@@ -3,7 +3,7 @@
 let number = 5;
 
 if (number <= 0) {
-    console.log("enter a positive non-zero number.");
+    console.log("error please enter a positive non-zero number");
 } else {
     console.log(`First 10 multiples of ${number}:`);
     for (let i = 1; i <= 10; i++) {
