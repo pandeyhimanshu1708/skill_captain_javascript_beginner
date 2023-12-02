@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Change Text on Button Click</title>
+</head>
+<body>
+
+  <p id="output">Click the button to change this text.</p>
+  <button onclick="changeText()">Change Text</button>
+
+  <script>
+    function changeText() {
+      var paragraph = document.getElementById('output');
+      paragraph.innerHTML = 'The text has been changed!';
+    }
+  </script>
+
+</body>
+</html>
